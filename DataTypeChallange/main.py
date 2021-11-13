@@ -30,6 +30,19 @@
 #1 year = 52 weeks 
 #1 year = 12 months 
 
+ageInput = input("What is your current age?\n")
+lifeAgeDays = 90 * 365
+lifeAgeWeeks = 90 * 52
+lifeAgeMonths = 90 * 12
+
+difDays = lifeAgeDays - (int(ageInput) * 365)
+difWeeks = lifeAgeWeeks - (int(ageInput) * 52)
+difMonths = lifeAgeMonths - (int(ageInput) * 12)
+
+print(f"You have {difDays} days, {difWeeks} weeks, and {difMonths} months left")
+
+
+
 
 
 
